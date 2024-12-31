@@ -1,6 +1,5 @@
-﻿import json
+import json
 
-# 위의 JSON을 변수로 저장
 data = {
     "이미지코드": {
         "최아린": ["zmmducI", "WRWrsjb", "KcjYHZb", "qU8NFs8", "B24lChV", "dt0GGC", "RwMbmQi", "4FBU6Jf", "cFo7Q6P", "xcVG3Ji"],
@@ -16,6 +15,6 @@ data = {
     }
 }
 
-# '최아린' 캐릭터의 첫 번째 이미지 코드 가져오기
-image_code_for_arin = data["이미지코드"]["최아린"][0]
-print(f"최아린의 첫 번째 이미지 코드: {image_code_for_arin}")
+# 캐릭터의 코드를 가져오기
+image_code = data["이미지코드"]["최아린"][0]
+print(f"최아린의 첫 번째 이미지 코드: {image_code}")
